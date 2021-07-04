@@ -21,6 +21,19 @@ function verifySsn(ssn) {
     return sum % 10 === 0;
 }
 
+function verifySex(ssn) {
+    let sex;
+    if(ssn % 2 === 0) {
+        sex = 'male'
+    } else {
+        sex = 'female'
+    }
+    return sex
+}
+
 let ssn = "9710286098";
 
 let result = verifySsn(ssn);
+let sex = verifySex(ssn);
+console.log("Valid: " + result);
+console.log("Valid: " + sex);
