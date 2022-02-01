@@ -1,3 +1,7 @@
+'use strict';
+
+import { verifySsn, verifySex } from '../src/index.js';
+
 let ssn = "9710286098";
 let invalidSsn = "9710286198"
 

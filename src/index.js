@@ -1,3 +1,5 @@
+'use strict';
+
 function verifySsn(ssn) {
     let numbers = ssn.split("");
     let sum = 0;
@@ -29,4 +31,9 @@ function verifySex(ssn) {
         sex = 'Female'
     }
     return sex
+}
+
+export {
+    verifySsn,
+    verifySex  
 }
