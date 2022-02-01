@@ -4,8 +4,18 @@
 ![](https://img.shields.io/bundlephobia/min/swedish-social-security-number?color=green&style=flat-square)
 ![](https://img.shields.io/npm/l/swedish-social-security-number?color=red&style=flat-square)
 
-This is a NPM package to help you verify swedish social security numbers with ease. Lightweight package with no b*llshit. 
+## Description
+This is a NPM package to help you verify Swedish social security numbers , oherwise called SSN, with ease. Lightweight package without any useless extra functionality. 
+
+## Installing
+To get the latest version runt this command in your project:
+`npm i swedish-social-security-number`
+
+## Usage
+`import { verifySsn, verifySex } from  './swedish-social-security-number';`
 
 ## Functions
-- Verify SSN (scoail security number)
-- Verify sex with the SSN
+**verifySsn**
+This method is used to check if a Swedish social security number (SSN). 
+**VerifySex**
+Verifies if the SSN is for a male or a female. 
