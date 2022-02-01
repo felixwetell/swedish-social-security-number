@@ -30,10 +30,3 @@ function verifySex(ssn) {
     }
     return sex
 }
-
-let ssn = "9710286098";
-
-let result = verifySsn(ssn);
-let sex = verifySex(ssn);
-console.log("Valid: " + result);
-console.log("Valid: " + sex);
