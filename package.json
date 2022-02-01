@@ -1,6 +1,6 @@
 {
   "name": "swedish-social-security-number",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "I need to verify my own social security number, don't judge.",
   "main": "index.js",
   "scripts": {

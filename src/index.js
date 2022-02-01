@@ -24,9 +24,9 @@ function verifySsn(ssn) {
 function verifySex(ssn) {
     let sex;
     if(ssn % 2 === 0) {
-        sex = 'male'
+        sex = 'Male'
     } else {
-        sex = 'female'
+        sex = 'Female'
     }
     return sex
 }

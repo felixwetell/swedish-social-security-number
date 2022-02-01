@@ -10,15 +10,7 @@
     <div id="qunit"></div>
     <div id="qunit-fixture"></div>
     <script src="https://code.jquery.com/qunit/qunit-2.10.1.js"></script>
-    <script src="index.js"></script>
-    <script>
-        // This can of course be in a separate file
-        QUnit.test( "Verify SSN", function( assert ) {
-          assert.ok( verifySsn("9710286098") === true, "Passed!" );
-        });
-        QUnit.test( "Verify sex", function( assert ) {
-          assert.ok( verifySsn("9710286098") === 'Male', "Passed!" );
-        });
-    </script>
+    <script src="../src/index.js"></script>
+    <script src="test.js"></script>
 </body>
 </html>
