@@ -15,6 +15,7 @@ To get the latest version runt this command in your project:
 ```
 var swedishSocialSecurityNumber = require("swedish-social-security-number");
 ```
+See [test.js](https://github.com/felixwetell/swedish-social-security-number/blob/main/tests/test.js) for more examples
 
 ## Functions
 **verifySsn (string)**
