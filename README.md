@@ -12,10 +12,11 @@ To get the latest version runt this command in your project:
 `npm i swedish-social-security-number`
 
 ## Usage
-`import { verifySsn, verifySex } from  './swedish-social-security-number';`
+`var swedishSocialSecurityNumber = require("swedish-social-security-number")`
 
 ## Functions
-**verifySsn**
-This method is used to check if a Swedish social security number (SSN). 
-**VerifySex**
-Verifies if the SSN is for a male or a female. 
+**verifySsn (string)**
+This method is used to check if a Swedish social security number (SSN). Only accepts SSN's aas string in short format.
+
+**verifySex (string)**
+Verifies if the SSN is for a male or a female. Only accepts SSN's aas string in short format.
