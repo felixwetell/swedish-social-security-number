@@ -17,6 +17,15 @@ var swedishSocialSecurityNumber = require("swedish-social-security-number");
 ```
 See [test.js](https://github.com/felixwetell/swedish-social-security-number/blob/main/tests/test.js) for more examples
 
+## Example
+
+```
+import Ssn from 'swedish-social-security-number';
+
+Ssn.verifySsn('9710286098');
+//=> true
+```
+
 ## Functions
 **verifySsn (string)**
 This method is used to check if a Swedish social security number (SSN). Only accepts SSN's aas string in short format.
