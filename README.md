@@ -12,7 +12,9 @@ To get the latest version runt this command in your project:
 `npm i swedish-social-security-number`
 
 ## Usage
-`var swedishSocialSecurityNumber = require("swedish-social-security-number")`
+```
+var swedishSocialSecurityNumber = require("swedish-social-security-number");
+```
 
 ## Functions
 **verifySsn (string)**
